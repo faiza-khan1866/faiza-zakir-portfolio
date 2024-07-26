@@ -13,7 +13,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter basename="/faiza-zakir-portfolio/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
