@@ -21,6 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import demo from "./demo.png";
+import royal from "./royal.png";
+import rph from "./rph.png";
+
+
 import prism from "./company/prism.png";
 import stackTech from "./company/stackTech.png";
 
@@ -60,4 +65,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  demo,
+  royal,
+  rph
 };

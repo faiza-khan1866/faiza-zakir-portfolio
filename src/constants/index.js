@@ -21,6 +21,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  demo,
+  royal,
+  rph,
 } from "../assets";
 
 export const navLinks = [
@@ -189,37 +192,57 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Demo Films",
+    description: `Created a dynamic portfolio website for Demo Films Projects, featuring a 
+comprehensive range of services including film-making, advertising, and new 
+technology solutions. Utilized Node js and MySQL to develop backend. Develop a 
+robust CMS for seamless admin control, with React JS frontend integration via APIs. 
+Maintained efficient collaboration through Git version control.`,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "saas",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: demo,
+    source_code_link: "https://github.com/faiza-khan1866/filmshub",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Royal Spirit",
+    description: `Developed a highly efficient, mobile-responsive e-commerce website using HTML, 
+CSS, JavaScript, SCSS, React JS, React Bootstrap, and Material UI, with Node js
+backend and MySQL database. Integrated payment gateway for online transactions. 
+Implemented a customizable CMS for admin control, including product management, 
+discount offers, sales report generation and order management, and seamless API 
+integration for client-side access. Integrated comprehensive query filters for product 
+search to enhance user experience. Proficient in version control using Git.`,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
@@ -227,29 +250,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: royal,
+    source_code_link: "https://github.com/faiza-khan1866/wine-world",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "RPH (Royal Premium Homes)",
+    description: `Created a multi-language website for Royal Premium Homes featuring user-friendly 
+design, highlighting residential and commercial projects, services, and luxurious 
+properties. Integrated Calendly for consultations and developed a comprehensive 
+CMS for admin management. Conducted rigorous testing and utilized HTML-
+, CSS, JavaScript, Node js, React JS, and Git for version control, ensuring optimal 
+performance and quality assurance`,
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: rph,
+    source_code_link: "https://github.com/faiza-khan1866/royal-homes",
   },
 ];
 
