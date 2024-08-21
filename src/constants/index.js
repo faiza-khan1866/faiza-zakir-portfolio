@@ -24,6 +24,9 @@ import {
   demo,
   royal,
   rph,
+  makeen,
+  pigeon,
+  carpediem,
 } from "../assets";
 
 export const navLinks = [
@@ -277,6 +280,80 @@ performance and quality assurance`,
     ],
     image: rph,
     source_code_link: "https://github.com/faiza-khan1866/royal-homes",
+  },
+  {
+    name: "Carpe Diem",
+    description: `Developed a robust Booking website using React js, facilitating property showcase, 
+room availability, and booking reports. Integrated payment gateway for seamless 
+transactions. Leveraged React JS and Redux for frontend development, along with 
+HTML, CSS, and JavaScript. Utilized Git for version control and ensured API 
+integration for data exchange between CMS and client-side website`,
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carpediem,
+    source_code_link: "https://github.com/faiza-khan1866/property-booking",
+  },
+  {
+    name: "Makeen Properties",
+    description: `Developed a highly efficient, mobile-responsive real estate website using HTML, 
+CSS, JavaScript,React JS, React Bootstrap, and Material UI, with Node js backend 
+and MySQL database. Implemented a customizable CMS for admin control, including 
+building and property management, team showcase, and seamless API integration 
+for client-side access. Integrated comprehensive query filters for property search to 
+enhance user experience. Proficient in version control using Git.`,
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: makeen,
+    source_code_link: "https://github.com/faiza-khan1866/real-estate",
+  },
+  {
+    name: "Pigeon",
+    description: `Pigeon Mother and Baby Care is an E-Commerce platform offering a comprehensive 
+CMS for admin control, enabling easy management of products, categories, discounts, 
+and orders. Utilizing a tech stack including HTML, CSS, JavaScript, React JS, Node js, 
+MySQL, and various React libraries, Integrated Google Tag Manager for advanced user 
+behavior analysis and transaction tracking. Providing functionalities such as shipment 
+tracking and detailed sales reports.`,
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pigeon,
+    source_code_link: "https://github.com/faiza-khan1866/baby-products",
   },
 ];
 

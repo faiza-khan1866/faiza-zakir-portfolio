@@ -24,7 +24,9 @@ import threejs from "./tech/threejs.svg";
 import demo from "./demo.png";
 import royal from "./royal.png";
 import rph from "./rph.png";
-
+import pigeon from "./pigeon.png";
+import makeen from "./makeen.png";
+import carpediem from "./carpediem.png";
 
 import prism from "./company/prism.png";
 import stackTech from "./company/stackTech.png";
@@ -67,5 +69,8 @@ export {
   tripguide,
   demo,
   royal,
-  rph
+  rph,
+  pigeon,
+  makeen,
+  carpediem,
 };
