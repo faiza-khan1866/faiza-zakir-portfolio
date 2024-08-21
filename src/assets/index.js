@@ -24,6 +24,9 @@ import threejs from "./tech/threejs.svg";
 import prism from "./company/prism.png";
 import stackTech from "./company/stackTech.png";
 
+import email from "./contact/email.svg";
+import linkedIn from "./contact/linkedin.svg";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -52,6 +55,8 @@ export {
   threejs,
   stackTech,
   prism,
+  email,
+  linkedIn,
   carrent,
   jobit,
   tripguide,

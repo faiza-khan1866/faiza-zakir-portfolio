@@ -39,19 +39,21 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Professional</p>
+        <h2 className={styles.sectionHeadText}>Summary.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm experienced Front End Developer with over 4 years of professional
+        experience in React JS, Next JS, HTML, CSS, and JavaScript. Skilled in
+        developing responsive and user-friendly web applications with a keen eye
+        for detail. Proven track record of delivering high-quality projects
+        within tight deadlines. Adaptable and able to work collaboratively in a
+        team environment. Passionate about staying up-to-date with industry
+        trends and continuously improving skills to deliver exceptional results.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

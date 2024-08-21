@@ -29,8 +29,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -90,14 +90,14 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -106,10 +106,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -120,10 +120,19 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed interactive websites using a combination of technologies including HTML5, CSS3, JS, web API, React js and SCSS.",
+      "Utilized Redux to effectively create and manage data flow in React websites, ensuring seamless store management and state control.",
+      "Enhanced customer satisfaction by creating custom websites in React that empowered admins to have full control over their content.",
+      "Designed and implemented various types of websites including business-related, portfolio, ERP solutions for business processes, and E-commerce sites.",
+      "Increased performance and scalability by optimizing the existing code base.",
+      "Integrated third-party APIs into the web applications for additional features and functionality.",
+      "Utilized caching strategies for faster webpage loading.",
+      "Leveraged Google Analytics to identify user behavior trends.",
+      "Upgraded existing software system to improve performance and introduce new features.",
+      "Debugged code and resolved problems based on priority systems.",
+      "Provided technical support for end users regarding any issue related to the web application.",
+      "Worked collectively with developers to review code, resolve bugs, and develop new features.",
+      "Researched and implemented innovative technologies, enhancing the development process.",
     ],
   },
   {
@@ -133,10 +142,20 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2020 - May 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilized HTML, CSS, JavaScript & React concepts to identify and develop highly responsive user interface components for web-based interactions.",
+      "Implemented high-performance coding practices to enhance code quality.",
+      "Implemented various projects including Business related Websites, Portfolio Websites and ERP Solution for Business Process with focus on E-commerce.",
+      "Utilized coding skills to convert Figma designs into responsive and interactive web pages.",
+      "Utilized React Bootstrap, React Strap and SCSS to develop a Responsive Design.",
+      "Successfully integrated multiple APl's to enhance functionality and improve user experience.",
+      "Implemented Redux for effective data flow, store management, and state management in React websites.",
+      "Developed fully customizable websites using React, empowering website administrators with complete control.",
+      "Created powerful Content Management Systems to serve as interface for client.",
+      "Optimized websites for international audiences by integrating multilingual features and localization settings.",
+      "Reduced load times by optimizing images, code minification, and implementing caching techniques.",
+      "Resolved front-end bugs promptly, ensuring optimal website performance at all times.",
+      "Streamlined the development process through efficient use of version control systems like Git.",
+      "Stayed up-to-date with industry trends and emerging technologies to continuously improve skills and implement innovative solutions.",
     ],
   },
 ];
